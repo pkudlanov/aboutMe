@@ -1,0 +1,40 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Libre Baskerville', serif;
+*/
+
+
+h1, h2, h3{
+    font-family: 'Libre Baskerville', serif;
+}
+h2, h3{
+    padding-top: 30px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    max-width: 600px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.moscow{
+    max-width: 100%;
+    height: auto;
+}
+.portrait{
+    float: right;
+    width: 200px;
+    padding-left: 10px;
+}
+.arch{
+    float: left;
+    width: 200px;
+    padding-right: 10px;
+}
+.bike{
+    float: left;
+    width: 300px;
+    padding-right: 10px;
+}
