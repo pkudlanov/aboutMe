@@ -1,0 +1,23 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Libre Baskerville', serif;
+*/
+
+
+h1, h2, h3{
+    font-family: 'Libre Baskerville', serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    max-width: 600px;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#moscow{
+    max-width: 600px;
+    padding-right: 30px;
+}
