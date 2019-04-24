@@ -52,9 +52,9 @@ input{
     width: 300px;
     height: 1.5em;
 }
-#quizResult{
+#result-style{
     font-family: 'Libre Baskerville', serif;
-    font-size: 2em;
+    font-size: 1.6em;
 }
 button{
     font-family: 'Montserrat', sans-serif;
