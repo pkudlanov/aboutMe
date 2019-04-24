@@ -44,3 +44,9 @@ submitButton.addEventListener('click', () => {
     quizResult.textContent = testResult(bikerInput, numStatesInput, hobbyInput, placeInput, ageInput);
 });
 
+const mess = document.getElementById ('messing');
+
+const helloButton = document.getElementById ('greeting');
+helloButton.addEventListener('click', () => {
+    mess.textContent = "YO Yo yo!!!...";
+})
