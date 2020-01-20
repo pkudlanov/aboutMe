@@ -3,8 +3,39 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Libre Baskerville', serif;
 */
 
-
+body{
+    border: 0;
+    max-width: 600px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+header{
+    margin: 2.5em;
+}
+nav{
+    overflow: hidden;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    padding: .5em;
+    text-align: center;
+    background: rgb(75, 75, 75);
+    left: 0;
+    opacity: .9;
+}
+nav a{
+    margin: .5em 2em;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: lightgray;
+}
 h1, h2, h3{
+    margin: 0;
     font-family: 'Libre Baskerville', serif;
 }
 h2, h3{
@@ -12,12 +43,6 @@ h2, h3{
 }
 p{
     font-family: 'Montserrat', sans-serif;
-}
-body{
-    max-width: 600px;
-    margin: auto;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 .moscow{
     max-width: 100%;
