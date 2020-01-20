@@ -7,32 +7,32 @@ function testResult(biker, numStates, hobby, place, age){
 
     let score = 0;
 
-    if(biker === "pavel"){
+    if(biker === 'pavel'){
         score++;
     }
-    if(numStates === "3"){
+    if(numStates === '3'){
         score++;
     }
-    if(hobby === "photography"){
+    if(hobby === 'photography'){
         score++;
     }
-    if(place === "crimea"){
+    if(place === 'crimea'){
         score++;
     }
-    if(age === "23"){
+    if(age === '23'){
         score++;
     }
 
     return score;
 }
 
-const submitButton = document.getElementById ('submit-button');
-const biker = document.getElementById ('biker');
-const numStates = document.getElementById ('num-states');
-const hobby = document.getElementById ('hobby');
-const place = document.getElementById ('place');
-const age = document.getElementById ('age');
-const quizResult = document.getElementById ('quiz-result');
+const submitButton = document.getElementById('submit-button');
+const biker = document.getElementById('biker');
+const numStates = document.getElementById('num-states');
+const hobby = document.getElementById('hobby');
+const place = document.getElementById('place');
+const age = document.getElementById('age');
+const quizResult = document.getElementById('quiz-result');
 
 submitButton.addEventListener('click', () => {
     const bikerInput = biker.value;
@@ -44,9 +44,9 @@ submitButton.addEventListener('click', () => {
     quizResult.textContent = testResult(bikerInput, numStatesInput, hobbyInput, placeInput, ageInput);
 });
 
-const mess = document.getElementById ('messing');
+const message = document.getElementById('greeting-message');
 
-const helloButton = document.getElementById ('greeting');
+const helloButton = document.getElementById('greeting');
 helloButton.addEventListener('click', () => {
-    mess.textContent = "YO Yo yo!!!...";
-})
+    message.textContent = 'Hello, young sir/madame!';
+});
