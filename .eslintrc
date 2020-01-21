@@ -79,7 +79,8 @@
           }
         }
       ],
-      "array-bracket-spacing": "error"
+      "array-bracket-spacing": "error",
+      "eol-last": ["error", "always"]
     }
   }
   
