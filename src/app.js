@@ -1,30 +1,4 @@
-function testResult(biker, numStates, hobby, place, age){
-    biker = biker.toLowerCase();
-    numStates = numStates.toLowerCase();
-    hobby = hobby.toLowerCase();
-    place = place.toLowerCase();
-    age = age.toLowerCase();
-
-    let score = 0;
-
-    if(biker === 'pavel'){
-        score++;
-    }
-    if(numStates === '3'){
-        score++;
-    }
-    if(hobby === 'photography'){
-        score++;
-    }
-    if(place === 'crimea'){
-        score++;
-    }
-    if(age === '23'){
-        score++;
-    }
-
-    return score;
-}
+import testResult from './test-result.js';
 
 const submitButton = document.getElementById('submit-button');
 const biker = document.getElementById('biker');
@@ -50,3 +24,5 @@ const helloButton = document.getElementById('greeting');
 helloButton.addEventListener('click', () => {
     message.textContent = 'Hello, young sir/madame!';
 });
+
+export default testResult;
